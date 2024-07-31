@@ -38,7 +38,9 @@ header {
         color: #262626;
     }
 
-    
+    .list-microsoft-resp{
+        display: none;
+    }
 
 }
 
@@ -78,6 +80,10 @@ header {
     .carousel-control-prev,
     .carousel-control-next {
         top: 300px;
+    }
+
+    .img-carousel-resp{
+        display: none;
     }
 }
 
@@ -129,6 +135,7 @@ header {
             border-radius: 0;
             border: none;
             box-shadow: 0 .1875rem .4375rem 0 rgba(0,0,0,.13), 0 .0625rem .125rem 0 rgba(0,0,0,.11);
+            
 
             .card-body{
                 display: flex;
@@ -168,6 +175,7 @@ header {
         border-radius: 0;
         border: none;
         padding: 30px;
+        width: 20rem;
 
         h5{
             font-size: 1.5rem;
